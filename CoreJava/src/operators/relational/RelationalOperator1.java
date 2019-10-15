@@ -24,7 +24,7 @@ public class RelationalOperator1 {
 		boolean isHeightMatches = peterHeight >= tomHeight; // 5 5
 		System.out.println("isHeightMatches ="+ isHeightMatches);
 
-
+		
 		/// Can Peter and tom team up for Volleyball match
 		// if peterIsOlder and heightmatches
 		// then they can play volleyball together
@@ -33,6 +33,10 @@ public class RelationalOperator1 {
 				+ (isPeterOlder && isHeightMatches));
 
 		// && || 
+		if(true) {
+			
+		}
+		
 		
 	}
 
