@@ -21,7 +21,6 @@ public class ArrayExample {
 		int []numbers = {_1,_2,3,4,555}; 
 		System.out.println(numbers[4]);
 		
-		
 		// names
 		String _name1 = "Peter";
 		String _name2 = "Gage";
