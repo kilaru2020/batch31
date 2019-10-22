@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/operators/relational/RelationalOperator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/operators/relational/RelationalOperator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/gettersetter/GetterSetterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/gettersetter/PassingOnObjectReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/pojo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/DriverProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/DriverProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/DriverProgram2.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/DriverProgram2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,14 +20,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S56CPT0P1BxvHVEsAK5xWJFw9l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tutorial.classes.gettersetter" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -31,6 +58,40 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.PassingOnObjectReference">
+    <configuration name="GetterSetterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.classes.gettersetter.GetterSetterExample" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.classes.gettersetter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassingOnObjectReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.classes.gettersetter.PassingOnObjectReference" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.classes.gettersetter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PassingOnObjectReference" />
+        <item itemvalue="Application.GetterSetterExample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -42,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570840981470</updated>
       <workItem from="1570840984775" duration="59000" />
+      <workItem from="1571703917138" duration="5513000" />
     </task>
     <servers />
   </component>
@@ -53,7 +115,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

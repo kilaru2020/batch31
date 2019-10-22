@@ -10,9 +10,7 @@ public class DriverProgram2 {
 		tomadd.address1 = "Max Street";
 		tomadd.country = "USA";
 		tomadd.state = "NJ";
-		
 		tom.address = tomadd;
-		
 		tom.isMarried = true;
 		
 		Person roona = new Person();
@@ -30,12 +28,4 @@ public class DriverProgram2 {
 
 }
 
-class Person {
-	
-	String name;
-	Address address;
-	boolean isMarried;
-	Person spouse;
-	Person father;
-	Person mother;
-}
+

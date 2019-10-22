@@ -8,7 +8,7 @@ public class DriverProgram {
 		manifacturer_1.state = "SomeState";
 		
 		
-		CellPhone samsung = new CellPhone();
+		Phone samsung = new Phone();
 		samsung.name = "Samsung";
 		samsung.model = "Model 1";
 		samsung.size = 7;
@@ -28,7 +28,7 @@ public class DriverProgram {
 		
 		
 //		
-		CellPhone iphone = new CellPhone();
+		Phone iphone = new Phone();
 		iphone.name = "Iphone";
 		iphone.model = "X";
 		iphone.size = 6;
@@ -52,7 +52,7 @@ public class DriverProgram {
 }
 
 // Template
-class CellPhone {
+class Phone {
 	String name; // instance variables: inside a class but outside the method
 	String model;
 	int size;
@@ -62,10 +62,7 @@ class CellPhone {
 	PhonePen pen;
 	
 }
-
-
 class PhonePen{
 	int size;
 }
-
 
