@@ -6,4 +6,7 @@ class Address {
 	String country;
 	String state;
 	int zip;
+
+//	public Address(){}
+//	public Address(String arg){}
 }
