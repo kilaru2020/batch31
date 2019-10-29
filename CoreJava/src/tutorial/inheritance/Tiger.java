@@ -1,6 +1,6 @@
 package tutorial.inheritance;
 
-public class Tiger extends Animal { // IS-A relationship
+public abstract class Tiger extends Animal { // IS-A relationship
     private String stripWidth; // Tiger
     private String jumpingLevel; // Tiger
 
@@ -8,6 +8,12 @@ public class Tiger extends Animal { // IS-A relationship
         // this(*,*,*);
         super(noOfLegs,name,place);
     }
+
+    @Override
+    public void foodHabits() {
+        System.out.println("I eat meat...");
+    }
+
     public String getStripWidth() {
         return stripWidth;
     }

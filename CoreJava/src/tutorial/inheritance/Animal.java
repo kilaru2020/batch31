@@ -1,7 +1,7 @@
 package tutorial.inheritance;
 
 //public class Animal extends Object {
-public class Animal {
+public abstract class Animal {
     private int noOfLegs;
     private String name;
     private String place;
@@ -39,10 +39,12 @@ public class Animal {
      * less noise , no noise , huge noise
      */
     public void noiseLevel() {
-        System.out.println("Level is medium");
+        System.out.println("Default Noise Level");
     }
 
     public void swimmingCapability() {
-
+        System.out.println("I swim good...");
     }
+
+    public abstract void foodHabits(); // skeleton
 }

@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/ModelHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/DriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Elephant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/MountainTiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/AbstractExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Attacking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/JungleHumanBeing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/classes/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/DriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/DriverClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Elephant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/MountainTiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/MountainTiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriverClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Tiger.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,22 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OverrideDriverClass">
-    <configuration name="ConstructorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.classes.ConstructorExample" />
-      <module name="CoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tutorial.classes.pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DriverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.DriverClass" />
+  <component name="RunManager" selected="Application.AbstractExample">
+    <configuration name="AbstractExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.AbstractExample" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.classes.EnumExample" />
+    <configuration name="OverrideDriver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.OverrideDriver2" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutorial.classes.*" />
+          <option name="PATTERN" value="tutorial.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.classes.JavaVariables" />
+    <configuration name="OverrideDriver3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.OverrideDriver3" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutorial.classes.pojo.*" />
+          <option name="PATTERN" value="tutorial.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverrideDriver4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.OverrideDriver4" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractExample" />
+        <item itemvalue="Application.OverrideDriver3" />
+        <item itemvalue="Application.OverrideDriver4" />
+        <item itemvalue="Application.OverrideDriver2" />
         <item itemvalue="Application.OverrideDriverClass" />
-        <item itemvalue="Application.DriverClass" />
-        <item itemvalue="Application.EnumExample" />
-        <item itemvalue="Application.ConstructorExample" />
-        <item itemvalue="Application.JavaVariables" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +156,8 @@
       <workItem from="1571703917138" duration="6286000" />
       <workItem from="1571794758910" duration="278000" />
       <workItem from="1571878197688" duration="4800000" />
-      <workItem from="1572049830288" duration="5596000" />
+      <workItem from="1572049830288" duration="5863000" />
+      <workItem from="1572309220434" duration="5511000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -168,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571882551003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updates">
+      <created>1572055627035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572055627035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,5 +202,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updates" />
     <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver3.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver3.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver3.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

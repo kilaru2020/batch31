@@ -2,7 +2,7 @@ package tutorial.inheritance;
 
 public class DriverClass {
     public static void main(String[] args) {
-        Tiger tiger = new Tiger(4, "Bengal Tiger", "WB");
+        Tiger tiger = new MountainTiger(4, "Bengal Tiger", "WB",-3);
         System.out.println(tiger.getNoOfLegs());
         System.out.println(tiger.getName());
         System.out.println(tiger.getPlace());

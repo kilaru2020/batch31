@@ -1,6 +1,6 @@
 package tutorial.inheritance;
 
-public class MountainTiger extends Tiger {
+public class MountainTiger extends Tiger implements Attacking {
 
     float minusSurvivingTemp = -20;
 
@@ -20,5 +20,10 @@ public class MountainTiger extends Tiger {
 
     public void mountainTigerVisibilityRatio(){
         System.out.println("Visibility is very low ");
+    }
+
+    @Override
+    public void attack() {
+        System.out.println("I attack other animal to eat...");
     }
 }
