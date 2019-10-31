@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/AbstractExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Attacking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/JungleHumanBeing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/MyOwnException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/MyOwnRunTimeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/DriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/DriverClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/MountainTiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/MountainTiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriverClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/Tiger.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +41,13 @@
       <recent name="tutorial.classes.pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tutorial.exceptions" />
       <recent name="tutorial.inheritance" />
       <recent name="tutorial.classes" />
       <recent name="tutorial.classes.gettersetter" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tutorial.exceptions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbstractExample">
+  <component name="RunManager" selected="Application.ExceptionsDriver3">
     <configuration name="AbstractExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.AbstractExample" />
       <module name="CoreJava" />
@@ -80,12 +76,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverrideDriver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.OverrideDriver2" />
+    <configuration name="ExceptionsDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.exceptions.ExceptionsDriver" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutorial.inheritance.*" />
+          <option name="PATTERN" value="tutorial.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionsDriver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.exceptions.ExceptionsDriver2" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionsDriver3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.exceptions.ExceptionsDriver3" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,39 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverrideDriver4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.OverrideDriver4" />
-      <module name="CoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tutorial.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OverrideDriverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.OverrideDriverClass" />
-      <module name="CoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tutorial.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionsDriver3" />
+        <item itemvalue="Application.ExceptionsDriver2" />
+        <item itemvalue="Application.ExceptionsDriver" />
         <item itemvalue="Application.AbstractExample" />
         <item itemvalue="Application.OverrideDriver3" />
-        <item itemvalue="Application.OverrideDriver4" />
-        <item itemvalue="Application.OverrideDriver2" />
-        <item itemvalue="Application.OverrideDriverClass" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +153,8 @@
       <workItem from="1571794758910" duration="278000" />
       <workItem from="1571878197688" duration="4800000" />
       <workItem from="1572049830288" duration="5863000" />
-      <workItem from="1572309220434" duration="5511000" />
+      <workItem from="1572309220434" duration="6695000" />
+      <workItem from="1572481452633" duration="5013000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572055627035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updates">
+      <created>1572314775211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572314775211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +224,31 @@
           <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/inheritance/OverrideDriver3.java</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver3.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver3.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver3.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
