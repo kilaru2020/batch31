@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/ExceptionsDriver3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/MyOwnException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/exceptions/MyOwnRunTimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/Employee.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/io/ByteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/io/FileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/io/ScannerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/src/module-info.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CoreJava/src/tutorial" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -39,6 +40,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="tutorial.classes.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CoreJava/src/tutorial" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tutorial.exceptions" />
@@ -62,26 +66,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExceptionsDriver3">
-    <configuration name="AbstractExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.AbstractExample" />
+  <component name="RunManager" selected="Application.ByteExample">
+    <configuration name="ByteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.io.ByteExample" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutorial.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionsDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.exceptions.ExceptionsDriver" />
-      <module name="CoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tutorial.exceptions.*" />
+          <option name="PATTERN" value="tutorial.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverrideDriver3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.inheritance.OverrideDriver3" />
+    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.io.FileExample" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutorial.inheritance.*" />
+          <option name="PATTERN" value="tutorial.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.io.ScannerExample" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteExample" />
+        <item itemvalue="Application.ScannerExample" />
+        <item itemvalue="Application.FileExample" />
         <item itemvalue="Application.ExceptionsDriver3" />
         <item itemvalue="Application.ExceptionsDriver2" />
-        <item itemvalue="Application.ExceptionsDriver" />
-        <item itemvalue="Application.AbstractExample" />
-        <item itemvalue="Application.OverrideDriver3" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +158,8 @@
       <workItem from="1571878197688" duration="4800000" />
       <workItem from="1572049830288" duration="5863000" />
       <workItem from="1572309220434" duration="6695000" />
-      <workItem from="1572481452633" duration="5013000" />
+      <workItem from="1572481452633" duration="5036000" />
+      <workItem from="1572654348770" duration="4664000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -184,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572314775211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updates">
+      <created>1572486904451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572486904451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
