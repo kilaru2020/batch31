@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/Employee.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/io/ByteExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/io/FileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/io/ScannerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator/src/jrout/tutorial/CalculatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreJava/src/tutorial/HouseProjectDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreJava/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreJava/bin/module-info.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ByteExample">
+  <component name="RunManager" selected="Application.Calculation">
     <configuration name="ByteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tutorial.io.ByteExample" />
       <module name="CoreJava" />
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionsDriver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial.exceptions.ExceptionsDriver2" />
+    <configuration name="Calculation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial.Calculation" />
       <module name="CoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tutorial.exceptions.*" />
+          <option name="PATTERN" value="tutorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculation" />
         <item itemvalue="Application.ByteExample" />
         <item itemvalue="Application.ScannerExample" />
         <item itemvalue="Application.FileExample" />
         <item itemvalue="Application.ExceptionsDriver3" />
-        <item itemvalue="Application.ExceptionsDriver2" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +159,8 @@
       <workItem from="1572049830288" duration="5863000" />
       <workItem from="1572309220434" duration="6695000" />
       <workItem from="1572481452633" duration="5036000" />
-      <workItem from="1572654348770" duration="4664000" />
+      <workItem from="1572654348770" duration="4768000" />
+      <workItem from="1573091379017" duration="2085000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -196,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572486904451</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updates">
+      <created>1572659120042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572659120042</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
