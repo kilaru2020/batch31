@@ -2,7 +2,7 @@ package jrout.tutorial.batch31.jdbc;
 import java.lang.reflect.InvocationTargetException;
 import java.sql.*;
 
-public class JDBCProgram2 {
+public class ClassForNameExample {
 
     public static void main(String[] args) {
         try {

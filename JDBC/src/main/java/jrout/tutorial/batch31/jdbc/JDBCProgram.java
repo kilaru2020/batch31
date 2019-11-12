@@ -1,6 +1,6 @@
 package jrout.tutorial.batch31.jdbc;
 //import com.mysql.jdbc.Driver;
-import com.mysql.cj.jdbc.Driver;
+//import com.mysql.cj.jdbc.Driver;
 import java.sql.*;
 
 public class JDBCProgram {
@@ -10,19 +10,11 @@ public class JDBCProgram {
     // making sql queries
     public static void main(String[] args) {
         /*try {
-            Class.forName("jrout.tutorial.batch31.jdbc.Flute");
-//            ClassLoader.getSystemClassLoader().loadClass("jrout.tutorial.batch31.jdbc.Flute");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }*/
-
-        try {
             Driver driver = new Driver();
             DriverManager.registerDriver(driver);
-
         } catch (SQLException e) {
             e.printStackTrace();
-        }
+        }*/
 
         /*try {
             Class.forName("com.mysql.cj.jdbc.Driver");
