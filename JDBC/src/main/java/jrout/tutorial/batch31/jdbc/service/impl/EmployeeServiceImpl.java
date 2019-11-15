@@ -6,12 +6,14 @@ import jrout.tutorial.batch31.jdbc.domain.Employee;
 import jrout.tutorial.batch31.jdbc.service.IEmployeeService;
 
 import java.sql.Date;
+import java.util.List;
 
 public class EmployeeServiceImpl implements IEmployeeService {
 
     private IEmployeeDAO employeeDAO;
     @Override
     public Employee fetchEmployee(int empId) {
+        System.out.println("Inside EmployeeServiceImpl::fetchEmployee");
         employeeDAO = new EmployeeDAOImpl();
         return employeeDAO.fetchEmployee(empId);
     }
@@ -29,6 +31,23 @@ public class EmployeeServiceImpl implements IEmployeeService {
             return employee.getSalary() + 1000;
         }
         return employee.getSalary();
+    }
+
+    @Override
+    public Employee[] fetchWithLastName(String lastName) {
+        employeeDAO = new EmployeeDAOImpl();
+        Employee[] employees = employeeDAO.fetchWithLastName(lastName);
+        return employees;
+    }
+
+    @Override
+    public List<Employee> fetchWithLastNameWithCollection(String lastName) {
+        employeeDAO = new EmployeeDAOImpl();
+        List<Employee> employees = employeeDAO.fetchWithLastNameWithCollection(lastName);
+
+        return employees;
+
+
     }
 
     private String trimSomething(String data){
