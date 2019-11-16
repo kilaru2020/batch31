@@ -68,6 +68,12 @@ public class EmployeeServiceImplTest {
         ages[4] = 40;
 //        ages[5] = 40;
 
+        for(int i = 0 ; i < ages.length ; i++) {
+            System.out.println(ages[i]);
+        }
+        int a  =10;
+        Integer b = a; // auto boxing
+
         List<Integer> ageList = new ArrayList(); // java.util
         ageList.add(4);
         ageList.add(43);
@@ -86,9 +92,15 @@ public class EmployeeServiceImplTest {
         System.out.println(ages);
         System.out.println(ageList);
 
+        for(int i = 0 ; i < ageList.size(); i++) {
+            System.out.println(ageList.get(i));
+        }
 
+        for(Integer i : ageList) { // for each integer in ageList
+            System.out.println(i);
+        }
 
-
+        ageList.forEach(System.out::println);
 
     }
 

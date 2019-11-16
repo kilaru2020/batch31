@@ -109,8 +109,6 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
     public List<Employee> fetchWithLastNameWithCollection(String lastName) {
 //        Employee employeeList[] = new Employee[200];
         List<Employee> employeeList = new ArrayList<>();
-
-        connection = establishConnection();
         System.out.println("Inside EmployeeDAOImpl::fetchEmployee");
         connection = establishConnection();
         Employee employee = null;

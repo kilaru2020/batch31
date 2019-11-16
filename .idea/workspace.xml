@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RMI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/jrout/tutorial/batch31/rmi/EmployeeRMIImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/jrout/tutorial/batch31/rmi/EmployeeRMIServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/jrout/tutorial/batch31/rmi/IEmployeeRMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/test/java/jrout/tutorial/batch31/rmi/EmployeeRMIImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/test/java/jrout/tutorial/batch31/rmi/RMIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/test/java/jrout/tutorial/rmi/RMITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMIDifferentClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMIDifferentClient/src/main/java/jrout/tutorial/batch31/jdbc/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMIDifferentClient/src/main/java/jrout/tutorial/batch31/rmi/IEmployeeRMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMIDifferentClient/src/test/java/jrout/tutorial/batch31/rmi/RMIClientDifferent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/ClassForNameExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/ClassForNameExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/Flute.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/Flute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/dao/IEmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/dao/IEmployeeDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/dao/impl/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/dao/impl/EmployeeDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/service/IEmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/domain/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JDBC/src/test/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/test/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImplTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,23 +56,22 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CoreJava/src/tutorial" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="jrout.tutorial.batch31.rmi.impl" />
       <recent name="jrout.tutorial.batch31.jdbc.service.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jrout.tutorial.batch31.rmi" />
       <recent name="tutorial.classes.pojo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CoreJava/src/tutorial" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tutorial.practice" />
@@ -70,6 +79,9 @@
       <recent name="tutorial.exceptions" />
       <recent name="tutorial.inheritance" />
       <recent name="tutorial.classes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CoreJava/src/tutorial" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tutorial.exceptions" />
@@ -87,81 +99,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeServiceImplTest.setExample">
-    <configuration name="EmployeeServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
+  <component name="RunManager" selected="Application.EmployeeRMIServer">
+    <configuration name="EmployeeRMIServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.rmi.EmployeeRMIServer" />
+      <module name="RMI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.jdbc.service.impl.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.rmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.jdbc.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.jdbc.service.impl.EmployeeServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceImplTest.arrayListExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
+    <configuration name="EmployeeRMIImplTest.fetchEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RMI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.jdbc.service.impl.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.rmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.jdbc.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.jdbc.service.impl.EmployeeServiceImplTest" />
-      <option name="METHOD_NAME" value="arrayListExample" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.rmi" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.rmi.EmployeeRMIImplTest" />
+      <option name="METHOD_NAME" value="fetchEmployee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceImplTest.fetchWithLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
+    <configuration name="RMIClient.testRMI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RMI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.jdbc.service.impl.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.rmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.jdbc.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.jdbc.service.impl.EmployeeServiceImplTest" />
-      <option name="METHOD_NAME" value="fetchWithLastName" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.rmi" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.rmi.RMIClient" />
+      <option name="METHOD_NAME" value="testRMI" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceImplTest.fetchWithLastNameWithArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
+    <configuration name="RMITest.callEmployeeService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RMI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.jdbc.service.impl.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.rmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.jdbc.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.jdbc.service.impl.EmployeeServiceImplTest" />
-      <option name="METHOD_NAME" value="fetchWithLastNameWithArrayList" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.rmi" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.rmi.RMITest" />
+      <option name="METHOD_NAME" value="callEmployeeService" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceImplTest.setExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
+    <configuration name="RMITest.fetchEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RMI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.jdbc.service.impl.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.rmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.jdbc.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.jdbc.service.impl.EmployeeServiceImplTest" />
-      <option name="METHOD_NAME" value="setExample" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.rmi" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.rmi.RMITest" />
+      <option name="METHOD_NAME" value="fetchEmployee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeServiceImplTest.setExample" />
-        <item itemvalue="JUnit.EmployeeServiceImplTest.arrayListExample" />
-        <item itemvalue="JUnit.EmployeeServiceImplTest.fetchWithLastNameWithArrayList" />
-        <item itemvalue="JUnit.EmployeeServiceImplTest.fetchWithLastName" />
-        <item itemvalue="JUnit.EmployeeServiceImplTest" />
+        <item itemvalue="Application.EmployeeRMIServer" />
+        <item itemvalue="JUnit.RMIClient.testRMI" />
+        <item itemvalue="JUnit.EmployeeRMIImplTest.fetchEmployee" />
+        <item itemvalue="JUnit.RMITest.fetchEmployee" />
+        <item itemvalue="JUnit.RMITest.callEmployeeService" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +209,8 @@
       <workItem from="1573263104881" duration="282000" />
       <workItem from="1573264039994" duration="5279000" />
       <workItem from="1573275595176" duration="9024000" />
-      <workItem from="1573696574541" duration="4617000" />
+      <workItem from="1573696574541" duration="4706000" />
+      <workItem from="1573867943068" duration="4444000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -257,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573526880687</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updates">
+      <created>1573786870914</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573786870914</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
