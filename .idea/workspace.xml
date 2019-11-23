@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Thread/src/jrout/tutorial/batch31/thread/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/jrout/tutorial/batch31/thread/DriverThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/jrout/tutorial/batch31/thread/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/jrout/tutorial/batch31/thread/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/jrout/tutorial/batch31/thread/SharingResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/jrout/tutorial/batch31/thread/WaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/jrout/tutorial/batch31/thread/ThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/dao/IEmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/dao/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/main/java/jrout/tutorial/batch31/rmi/EmployeeRMIServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RMI/src/main/java/jrout/tutorial/batch31/rmi/EmployeeRMIServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +49,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SparkSQL&#10;GitIgnore" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CoreJava/src/tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,13 +68,14 @@
       <recent name="tutorial.classes.pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jrout.tutorial.spring.springcore.dao.impl" />
       <recent name="tutorial.practice" />
       <recent name="jrout.tutorial.batch31.jdbc" />
       <recent name="tutorial.exceptions" />
       <recent name="tutorial.inheritance" />
-      <recent name="tutorial.classes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore" />
       <recent name="$PROJECT_DIR$/CoreJava/src/tutorial" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -89,9 +94,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WaitNotify">
-    <configuration name="DriverThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.thread.DriverThread" />
+  <component name="RunManager" selected="JUnit.SpringCoreApplicationTests.fetchEmployee">
+    <configuration name="SharingResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.thread.SharingResources" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
@@ -103,21 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeRMIServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.rmi.EmployeeRMIServer" />
-      <module name="RMI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.rmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SharingResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.thread.SharingResources" />
+    <configuration name="ThreadExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.thread.ThreadExecutor" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
@@ -142,29 +134,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RMIClient.testRMI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RMI" />
+    <configuration name="SpringCoreApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.rmi.*" />
+          <option name="PATTERN" value="jrout.tutorial.spring.springcore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.rmi" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.rmi.RMIClient" />
-      <option name="METHOD_NAME" value="testRMI" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.spring.springcore" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.spring.springcore.SpringCoreApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCoreApplicationTests.fetchEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jrout.tutorial.spring.springcore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jrout.tutorial.spring.springcore" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.spring.springcore.SpringCoreApplicationTests" />
+      <option name="METHOD_NAME" value="fetchEmployee" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jrout.tutorial.spring.springcore.SpringCoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringCoreApplicationTests.fetchEmployee" />
+        <item itemvalue="JUnit.SpringCoreApplicationTests" />
+        <item itemvalue="Application.ThreadExecutor" />
         <item itemvalue="Application.WaitNotify" />
         <item itemvalue="Application.SharingResources" />
-        <item itemvalue="Application.DriverThread" />
-        <item itemvalue="Application.EmployeeRMIServer" />
-        <item itemvalue="JUnit.RMIClient.testRMI" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +206,8 @@
       <workItem from="1573275595176" duration="9024000" />
       <workItem from="1573696574541" duration="4706000" />
       <workItem from="1573867943068" duration="4517000" />
-      <workItem from="1574127116865" duration="4705000" />
+      <workItem from="1574127116865" duration="7175000" />
+      <workItem from="1574472708770" duration="4563000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -264,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573872504245</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updates">
+      <created>1574131883174</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574131883174</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

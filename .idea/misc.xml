@@ -8,6 +8,8 @@
       <list>
         <option value="$PROJECT_DIR$/JDBC/pom.xml" />
         <option value="$PROJECT_DIR$/RMI/pom.xml" />
+        <option value="$PROJECT_DIR$/RMIDifferentClient/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-core/pom.xml" />
       </list>
     </option>
   </component>

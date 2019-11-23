@@ -6,6 +6,7 @@ import java.rmi.registry.Registry;
 public class EmployeeRMIServer {
     public static void main(String[] args) throws Exception {
         IEmployeeRMI employeeRMI = new EmployeeRMIImpl();
+//        IEmployeeRMI employeeRMI = new EmployeeRMIImplV2();
 
         Registry registry = LocateRegistry.createRegistry(2345);
         registry.rebind("EmployeeRMI",employeeRMI);
