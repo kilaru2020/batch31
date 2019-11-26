@@ -13,10 +13,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 //@Component
-@Service
+@Service // new EmployeeServiceImpl()
 public class EmployeeServiceImpl implements IEmployeeService {
 
-    @Autowired
+    @Autowired // inject an object of type IEmployeeDAO
     private IEmployeeDAO employeeDAO;
 
     @Override

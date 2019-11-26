@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/batch31.iml" filepath="$PROJECT_DIR$/.idea/batch31.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core/spring-core.iml" filepath="$PROJECT_DIR$/spring-core/spring-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-core-01/spring-core-01.iml" filepath="$PROJECT_DIR$/spring-core-01/spring-core-01.iml" />
     </modules>
   </component>
 </project>

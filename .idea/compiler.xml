@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="RMI" />
         <module name="JDBC" />
+        <module name="spring-core-01" />
         <module name="spring-core" />
         <module name="RMIDifferentClient" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="RMI" target="11" />
       <module name="RMIDifferentClient" target="1.5" />
       <module name="spring-core" target="11" />
+      <module name="spring-core-01" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
