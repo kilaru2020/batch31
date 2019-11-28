@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-core-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/main/java/jrout/tutorial/batch31/spring/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/main/java/jrout/tutorial/batch31/spring/dao/IEmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/main/java/jrout/tutorial/batch31/spring/dao/impl/EmployeeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/main/java/jrout/tutorial/batch31/spring/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/main/java/jrout/tutorial/batch31/spring/service/IEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/main/java/jrout/tutorial/batch31/spring/service/impl/EmployeeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/test/java/jrout/tutorial/batch31/spring/dao/impl/EmployeeDAOImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-01/src/test/java/jrout/tutorial/batch31/spring/service/impl/EmployeeImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/IMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/IVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/IVehicleMaintenance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/impl/BoseMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/impl/HondaVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/impl/MercedesVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/impl/VehicleMaintenceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-02/src/test/java/jrout/tutorial/batch31/springcore/service/impl/VehicleMaintenceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/test/java/jrout/tutorial/spring/springcore/SpringCoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/test/java/jrout/tutorial/spring/springcore/SpringCoreApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -52,6 +52,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SparkSQL&#10;GitIgnore" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -60,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="jrout.tutorial.batch31.springcore.service.impl" />
       <recent name="jrout.tutorial.batch31.spring.dao.impl" />
       <recent name="jrout.tutorial.batch31.spring.service.impl" />
       <recent name="jrout.tutorial.batch31.rmi.impl" />
@@ -74,11 +76,11 @@
       <recent name="tutorial.classes.pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jrout.tutorial.batch31.springcore.service.impl" />
       <recent name="jrout.tutorial.batch31.spring.domain" />
       <recent name="jrout.tutorial.batch31.spring.dao" />
       <recent name="jrout.tutorial.spring.springcore.dao.impl" />
       <recent name="tutorial.practice" />
-      <recent name="jrout.tutorial.batch31.jdbc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore" />
@@ -101,20 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeDAOImplTest.fetchEmployee">
-    <configuration name="ThreadExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.thread.ThreadExecutor" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VehicleMaintenceImplTest.washHonda">
     <configuration name="EmployeeDAOImplTest.fetchEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-core-01" />
       <extension name="coverage">
@@ -131,48 +120,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeImplTest.callMe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core-01" />
+    <configuration name="SpringCoreApplicationTests.testNoSpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.spring.service.impl.*" />
+          <option name="PATTERN" value="jrout.tutorial.spring.springcore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.spring.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.spring.service.impl.EmployeeImplTest" />
-      <option name="METHOD_NAME" value="callMe" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.spring.springcore" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.spring.springcore.SpringCoreApplicationTests" />
+      <option name="METHOD_NAME" value="testNoSpring" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCoreApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core" />
+    <configuration name="VehicleMaintenceImplTest.wash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-core-02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.spring.springcore.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.springcore.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.spring.springcore" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.spring.springcore.SpringCoreApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springcore.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springcore.service.impl.VehicleMaintenceImplTest" />
+      <option name="METHOD_NAME" value="wash" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCoreApplicationTests.fetchEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core" />
+    <configuration name="VehicleMaintenceImplTest.washHonda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-core-02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.spring.springcore.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.springcore.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.spring.springcore" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.spring.springcore.SpringCoreApplicationTests" />
-      <option name="METHOD_NAME" value="fetchEmployee" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springcore.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springcore.service.impl.VehicleMaintenceImplTest" />
+      <option name="METHOD_NAME" value="washHonda" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleMaintenceImplTest.washMercedes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-core-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jrout.tutorial.batch31.springcore.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springcore.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springcore.service.impl.VehicleMaintenceImplTest" />
+      <option name="METHOD_NAME" value="washMercedes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VehicleMaintenceImplTest.washHonda" />
+        <item itemvalue="JUnit.VehicleMaintenceImplTest.washMercedes" />
+        <item itemvalue="JUnit.VehicleMaintenceImplTest.wash" />
+        <item itemvalue="JUnit.SpringCoreApplicationTests.testNoSpring" />
         <item itemvalue="JUnit.EmployeeDAOImplTest.fetchEmployee" />
-        <item itemvalue="JUnit.EmployeeImplTest.callMe" />
-        <item itemvalue="JUnit.SpringCoreApplicationTests.fetchEmployee" />
-        <item itemvalue="JUnit.SpringCoreApplicationTests" />
-        <item itemvalue="Application.ThreadExecutor" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +227,7 @@
       <workItem from="1573867943068" duration="4517000" />
       <workItem from="1574127116865" duration="7175000" />
       <workItem from="1574472708770" duration="4654000" />
-      <workItem from="1574560800061" duration="7800000" />
+      <workItem from="1574560800061" duration="12089000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -382,6 +388,11 @@
           <url>file://$PROJECT_DIR$/spring-core-01/src/test/java/jrout/tutorial/batch31/spring/service/impl/EmployeeImplTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/service/impl/EmployeeServiceImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

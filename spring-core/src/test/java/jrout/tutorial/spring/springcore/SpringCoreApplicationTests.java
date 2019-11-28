@@ -1,5 +1,7 @@
 package jrout.tutorial.spring.springcore;
 
+import jrout.tutorial.spring.springcore.dao.IEmployeeDAO;
+import jrout.tutorial.spring.springcore.dao.impl.EmployeeDAOImpl;
 import jrout.tutorial.spring.springcore.domain.Employee;
 import jrout.tutorial.spring.springcore.service.IEmployeeService;
 import jrout.tutorial.spring.springcore.service.impl.EmployeeServiceImpl;
@@ -33,4 +35,5 @@ public class SpringCoreApplicationTests {
         System.out.println(employee.getFirstName());
 
     }
+
 }
