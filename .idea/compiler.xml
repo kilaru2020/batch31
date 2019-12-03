@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JDBC" />
         <module name="RMIDifferentClient" />
+        <module name="spring-rest-ws" />
         <module name="spring-core" />
         <module name="spring-core-02" />
         <module name="RMI" />
+        <module name="spring-rest-ws-2" />
         <module name="spring-core-01" />
       </profile>
     </annotationProcessing>
@@ -20,12 +22,16 @@
       <module name="RMIDifferentClient" target="1.5" />
       <module name="spring-core" target="11" />
       <module name="spring-core-01" target="1.5" />
-      <module name="spring-core-02" target="11" />
+      <module name="spring-core-02" target="1.5" />
+      <module name="spring-rest-ws" target="11" />
+      <module name="spring-rest-ws-2" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-core" options="-parameters" />
+      <module name="spring-rest-ws" options="-parameters" />
+      <module name="spring-rest-ws-2" options="-parameters" />
     </option>
   </component>
 </project>

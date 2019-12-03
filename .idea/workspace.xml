@@ -2,21 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-core-02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/IMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/IVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/IVehicleMaintenance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/impl/BoseMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/impl/HondaVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/impl/MercedesVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore/service/impl/VehicleMaintenceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core-02/src/test/java/jrout/tutorial/batch31/springcore/service/impl/VehicleMaintenceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/src/main/java/jrout/tutorial/batch31/springrestws2/SpringRestWs2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/src/main/java/jrout/tutorial/batch31/springrestws2/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/src/main/java/jrout/tutorial/batch31/springrestws2/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws-2/src/test/java/jrout/tutorial/batch31/springrestws2/SpringRestWs2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws/SpringRestWsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws/dao/IEmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws/dao/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws/service/IEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws/service/impl/EmployeeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-ws/src/test/java/jrout/tutorial/batch31/springrestws/SpringRestWsApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/src/test/java/jrout/tutorial/spring/springcore/SpringCoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/test/java/jrout/tutorial/spring/springcore/SpringCoreApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +62,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1S56CPT0P1BxvHVEsAK5xWJFw9l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -53,7 +74,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/spring-core-02/src/main/java/jrout/tutorial/batch31/springcore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -83,10 +104,12 @@
       <recent name="tutorial.practice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws" />
       <recent name="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore" />
       <recent name="$PROJECT_DIR$/CoreJava/src/tutorial" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="jrout.tutorial.batch31.springrestws2.domain" />
       <recent name="jrout.tutorial.batch31.spring.service.impl" />
       <recent name="tutorial.exceptions" />
     </key>
@@ -103,23 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleMaintenceImplTest.washHonda">
-    <configuration name="EmployeeDAOImplTest.fetchEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.spring.dao.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.spring.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.spring.dao.impl.EmployeeDAOImplTest" />
-      <option name="METHOD_NAME" value="fetchEmployee" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpringRestWs2ApplicationTests.callRest">
     <configuration name="SpringCoreApplicationTests.testNoSpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-core" />
       <extension name="coverage">
@@ -131,6 +138,22 @@
       <option name="PACKAGE_NAME" value="jrout.tutorial.spring.springcore" />
       <option name="MAIN_CLASS_NAME" value="jrout.tutorial.spring.springcore.SpringCoreApplicationTests" />
       <option name="METHOD_NAME" value="testNoSpring" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRestWs2ApplicationTests.callRest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rest-ws-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jrout.tutorial.batch31.springrestws2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springrestws2" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springrestws2.SpringRestWs2ApplicationTests" />
+      <option name="METHOD_NAME" value="callRest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,13 +214,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringRestWs2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-rest-ws-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jrout.tutorial.batch31.springrestws2.SpringRestWs2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRestWsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-rest-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jrout.tutorial.batch31.springrestws.SpringRestWsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringRestWs2ApplicationTests.callRest" />
         <item itemvalue="JUnit.VehicleMaintenceImplTest.washHonda" />
         <item itemvalue="JUnit.VehicleMaintenceImplTest.washMercedes" />
         <item itemvalue="JUnit.VehicleMaintenceImplTest.wash" />
         <item itemvalue="JUnit.SpringCoreApplicationTests.testNoSpring" />
-        <item itemvalue="JUnit.EmployeeDAOImplTest.fetchEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +264,7 @@
       <workItem from="1573867943068" duration="4517000" />
       <workItem from="1574127116865" duration="7175000" />
       <workItem from="1574472708770" duration="4654000" />
-      <workItem from="1574560800061" duration="12089000" />
+      <workItem from="1574560800061" duration="17346000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -333,6 +370,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updates" />
     <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
