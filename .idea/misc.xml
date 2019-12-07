@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/spring-core-02/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rest-ws/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rest-ws-2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-jpa/pom.xml" />
       </list>
     </option>
   </component>
