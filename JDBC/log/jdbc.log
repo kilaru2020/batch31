@@ -1,0 +1,27 @@
+2019-12-09 21:10:05 INFO  EmployeeServiceImpl:20 - Inside EmployeeServiceImpl::fetchEmployee
+2019-12-09 21:10:05 INFO  EmployeeDAOImpl:27 - Entered: establishConnection
+2019-12-09 21:10:05 INFO  EmployeeDAOImpl:34 - Connection established...
+2019-12-09 21:10:05 INFO  EmployeeDAOImpl:38 - Exiting: establishConnection
+2019-12-09 21:10:33 INFO  EmployeeServiceImpl:20 - Inside EmployeeServiceImpl::fetchEmployee
+2019-12-09 21:10:33 INFO  EmployeeDAOImpl:27 - Entered: establishConnection
+2019-12-09 21:10:34 INFO  EmployeeDAOImpl:34 - Connection established...
+2019-12-09 21:10:34 INFO  EmployeeDAOImpl:38 - Exiting: establishConnection
+2019-12-09 21:10:53 INFO  EmployeeServiceImpl:20 - Inside EmployeeServiceImpl::fetchEmployee
+2019-12-09 21:10:54 INFO  EmployeeDAOImpl:27 - Entered: establishConnection
+2019-12-09 21:10:54 INFO  EmployeeDAOImpl:34 - Connection established...
+2019-12-09 21:10:54 INFO  EmployeeDAOImpl:38 - Exiting: establishConnection
+2019-12-09 21:14:52 INFO  EmployeeServiceImpl:20 - Inside EmployeeServiceImpl::fetchEmployee
+2019-12-09 21:14:52 DEBUG EmployeeDAOImpl:27 - Entered: establishConnection
+2019-12-09 21:14:52 INFO  EmployeeDAOImpl:34 - Connection established...
+2019-12-09 21:14:52 DEBUG EmployeeDAOImpl:38 - Exiting: establishConnection
+2019-12-09 21:15:25 INFO  EmployeeServiceImpl:20 - Inside EmployeeServiceImpl::fetchEmployee
+2019-12-09 21:15:25 INFO  EmployeeDAOImpl:34 - Connection established...
+2019-12-09 21:18:19 INFO  EmployeeServiceImpl:20 - Inside EmployeeServiceImpl::fetchEmployee
+2019-12-09 21:18:19 INFO  EmployeeDAOImpl:27 - Entered: establishConnection
+2019-12-09 21:18:19 DEBUG EmployeeDAOImpl:29 - Connection reference null
+2019-12-09 21:18:19 INFO  EmployeeDAOImpl:37 - Connection established...
+2019-12-09 21:18:19 INFO  EmployeeDAOImpl:41 - Exiting: establishConnection
+2019-12-09 21:18:35 INFO  EmployeeServiceImpl:20 - Inside EmployeeServiceImpl::fetchEmployee
+2019-12-09 21:18:35 INFO  EmployeeDAOImpl:27 - Entered: establishConnection
+2019-12-09 21:18:36 INFO  EmployeeDAOImpl:37 - Connection established...
+2019-12-09 21:18:36 INFO  EmployeeDAOImpl:41 - Exiting: establishConnection

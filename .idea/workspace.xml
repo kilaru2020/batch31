@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-jpa/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/SpringJpaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa/src/test/java/jrout/tutorial/batch31/springjpa/SpringJpaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/log/jdbc.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Departments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Salaries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/dao/impl/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/dao/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/test/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/test/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jpa/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jpa/src/test/java/jrout/tutorial/batch31/springjpa/SpringJpaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jpa/src/test/java/jrout/tutorial/batch31/springjpa/SpringJpaApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,13 +77,14 @@
       <recent name="tutorial.classes.pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jrout.tutorial.batch31.springjpa.model" />
+      <recent name="jrout.tutorial.batch31.springjpa.repository" />
       <recent name="jrout.tutorial.batch31.springcore.service.impl" />
       <recent name="jrout.tutorial.batch31.spring.domain" />
       <recent name="jrout.tutorial.batch31.spring.dao" />
-      <recent name="jrout.tutorial.spring.springcore.dao.impl" />
-      <recent name="tutorial.practice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-jpa/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-rest-ws/src/main/java/jrout/tutorial/batch31/springrestws" />
       <recent name="$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore" />
       <recent name="$PROJECT_DIR$/CoreJava/src/tutorial" />
@@ -109,7 +107,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringJpaApplicationTests.testFindAll">
+  <component name="RunManager" selected="JUnit.EmployeeServiceImplTest.fetchEmployee">
+    <configuration name="EmployeeServiceImplTest.fetchEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jrout.tutorial.batch31.jdbc.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.jdbc.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.jdbc.service.impl.EmployeeServiceImplTest" />
+      <option name="METHOD_NAME" value="fetchEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringJpaApplicationTests.testEmployeeFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-jpa" />
       <extension name="coverage">
@@ -142,49 +156,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringRestWs2ApplicationTests.callRest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-rest-ws-2" />
+    <configuration name="SpringJpaApplicationTests.testOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.springrestws2.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.springjpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springrestws2" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springrestws2.SpringRestWs2ApplicationTests" />
-      <option name="METHOD_NAME" value="callRest" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springjpa" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springjpa.SpringJpaApplicationTests" />
+      <option name="METHOD_NAME" value="testOneToMany" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleMaintenceImplTest.washHonda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core-02" />
+    <configuration name="SpringJpaApplicationTests.testSalariesRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.springcore.service.impl.*" />
+          <option name="PATTERN" value="jrout.tutorial.batch31.springjpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springcore.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springcore.service.impl.VehicleMaintenceImplTest" />
-      <option name="METHOD_NAME" value="washHonda" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleMaintenceImplTest.washMercedes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jrout.tutorial.batch31.springcore.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springcore.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springcore.service.impl.VehicleMaintenceImplTest" />
-      <option name="METHOD_NAME" value="washMercedes" />
+      <option name="PACKAGE_NAME" value="jrout.tutorial.batch31.springjpa" />
+      <option name="MAIN_CLASS_NAME" value="jrout.tutorial.batch31.springjpa.SpringJpaApplicationTests" />
+      <option name="METHOD_NAME" value="testSalariesRepository" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringJpaApplicationTests.testFindAll" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.fetchEmployee" />
         <item itemvalue="JUnit.SpringJpaApplicationTests.testEmployeeFind" />
-        <item itemvalue="JUnit.SpringRestWs2ApplicationTests.callRest" />
-        <item itemvalue="JUnit.VehicleMaintenceImplTest.washHonda" />
-        <item itemvalue="JUnit.VehicleMaintenceImplTest.washMercedes" />
+        <item itemvalue="JUnit.SpringJpaApplicationTests.testFindAll" />
+        <item itemvalue="JUnit.SpringJpaApplicationTests.testOneToMany" />
+        <item itemvalue="JUnit.SpringJpaApplicationTests.testSalariesRepository" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +253,8 @@
       <workItem from="1574127116865" duration="7175000" />
       <workItem from="1574472708770" duration="4654000" />
       <workItem from="1574560800061" duration="23512000" />
-      <workItem from="1575681314764" duration="3882000" />
+      <workItem from="1575681314764" duration="4690000" />
+      <workItem from="1575935598179" duration="8012000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
@@ -361,6 +360,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -436,6 +438,16 @@
           <url>file://$PROJECT_DIR$/spring-core/src/main/java/jrout/tutorial/spring/springcore/service/impl/EmployeeServiceImpl.java</url>
           <line>23</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-jpa/src/test/java/jrout/tutorial/batch31/springjpa/SpringJpaApplicationTests.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-jpa/src/test/java/jrout/tutorial/batch31/springjpa/SpringJpaApplicationTests.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

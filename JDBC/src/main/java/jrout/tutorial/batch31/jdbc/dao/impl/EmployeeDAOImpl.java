@@ -2,12 +2,16 @@ package jrout.tutorial.batch31.jdbc.dao.impl;
 
 import jrout.tutorial.batch31.jdbc.dao.IEmployeeDAO;
 import jrout.tutorial.batch31.jdbc.domain.Employee;
+import jrout.tutorial.batch31.jdbc.service.impl.EmployeeServiceImpl;
+import org.apache.log4j.Logger;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeDAOImpl implements IEmployeeDAO {
+    private static Logger LOGGER = Logger.getLogger(EmployeeDAOImpl.class);
+
     private String url = "jdbc:mysql://localhost:3306/employees?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private Connection connection = null;
     static{
@@ -19,15 +23,22 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
     }
 
     private Connection establishConnection(){
+//        System.out.println("Entered: establishConnection");
+        LOGGER.info("Entered: establishConnection");
+
+        LOGGER.debug("Connection reference "+ connection);
+
         if(connection != null) {
             return connection;
         }
         try {
             connection = DriverManager.getConnection(url, "root", "root");
-            System.out.println("Connection established...");
+//            System.out.println("Connection established...");
+            LOGGER.info("Connection established...");
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        LOGGER.info("Exiting: establishConnection");
 
         return connection;
     }

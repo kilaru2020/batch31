@@ -31,9 +31,9 @@ public class EmployeeServiceImplTest {
 
     @Test
     public void fetchEmployee() {
-        Employee employee = employeeService.fetchEmployee(10003);
+        Employee employee = employeeService.fetchEmployee(10005);
         assertNotNull(employee); // this object should not be null
-        assertEquals(10003,employee.getEmpNo());
+        assertEquals(10005,employee.getEmpNo());
 
     }
 

@@ -4,16 +4,20 @@ import jrout.tutorial.batch31.jdbc.dao.IEmployeeDAO;
 import jrout.tutorial.batch31.jdbc.dao.impl.EmployeeDAOImpl;
 import jrout.tutorial.batch31.jdbc.domain.Employee;
 import jrout.tutorial.batch31.jdbc.service.IEmployeeService;
+import org.apache.log4j.Logger;
 
 import java.sql.Date;
 import java.util.List;
 
 public class EmployeeServiceImpl implements IEmployeeService {
 
+    private static Logger LOGGER = Logger.getLogger(EmployeeServiceImpl.class);
+
     private IEmployeeDAO employeeDAO;
     @Override
     public Employee fetchEmployee(int empId) {
-        System.out.println("Inside EmployeeServiceImpl::fetchEmployee");
+//        System.out.println("Inside EmployeeServiceImpl::fetchEmployee");
+        LOGGER.info("Inside EmployeeServiceImpl::fetchEmployee");
         employeeDAO = new EmployeeDAOImpl();
         return employeeDAO.fetchEmployee(empId);
     }
