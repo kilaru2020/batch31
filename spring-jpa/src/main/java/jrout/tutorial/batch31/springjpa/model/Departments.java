@@ -15,11 +15,7 @@ public class Departments {
     private Integer deptNo;
     private String deptName;
 
-    /*@ManyToMany
-    @JoinTable(name = "dept_emp", joinColumns = @JoinColumn(name = ))
+    @ManyToMany
+    @JoinTable(name = "dept_emp", joinColumns = @JoinColumn(name = "dept_no"), inverseJoinColumns = @JoinColumn(name = "emp_no"))
     private List<Employees> employees = new ArrayList<>();
-*/
-
-
-
 }

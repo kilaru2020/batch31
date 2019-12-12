@@ -1,5 +1,6 @@
 package jrout.tutorial.batch31.springjpa;
 
+import jrout.tutorial.batch31.springjpa.model.Departments;
 import jrout.tutorial.batch31.springjpa.model.Employees;
 import jrout.tutorial.batch31.springjpa.model.Salaries;
 import jrout.tutorial.batch31.springjpa.repository.EmployeeRepository;
@@ -13,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @SpringBootTest
-//@Log4j2
+@Log4j2
 class SpringJpaApplicationTests {
 
     @Autowired
@@ -59,12 +60,21 @@ class SpringJpaApplicationTests {
 
     }
 
-    /*@Test
+    @Test
     public void testOneToMany() {
         Optional<Employees> employees = employeeRepository.findById(10001);
         Employees employees1 = employees.get();
         List<Salaries> salaries = employees1.getSalaries();
         log.info(salaries.size());
         salaries.forEach(System.out::println);
-    }*/
+    }
+
+
+    @Test
+    public void testManyToMany(){
+        Optional<Employees> optionalEmployees = employeeRepository.findById(10001);
+        Employees employees = optionalEmployees.get();
+        List<Departments> departments = employees.getDepartments();
+        log.info(departments.size());
+    }
 }

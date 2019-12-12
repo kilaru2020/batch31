@@ -25,3 +25,7 @@
 2019-12-09 21:18:35 INFO  EmployeeDAOImpl:27 - Entered: establishConnection
 2019-12-09 21:18:36 INFO  EmployeeDAOImpl:37 - Connection established...
 2019-12-09 21:18:36 INFO  EmployeeDAOImpl:41 - Exiting: establishConnection
+2019-12-09 21:28:39 INFO  EmployeeDAOImpl:27 - Entered: establishConnection
+2019-12-09 21:28:39 DEBUG EmployeeDAOImpl:29 - Connection reference null
+2019-12-09 21:28:39 INFO  EmployeeDAOImpl:37 - Connection established...
+2019-12-09 21:28:39 INFO  EmployeeDAOImpl:41 - Exiting: establishConnection

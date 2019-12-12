@@ -17,7 +17,8 @@ public class EmployeeServiceImpl implements IEmployeeService {
     @Override
     public Employee fetchEmployee(int empId) {
 //        System.out.println("Inside EmployeeServiceImpl::fetchEmployee");
-        LOGGER.info("Inside EmployeeServiceImpl::fetchEmployee");
+//        LOGGER.info("Inside EmployeeServiceImpl::fetchEmployee");
+        LOGGER.debug("Inside EmployeeServiceImpl::fetchEmployee");
         employeeDAO = new EmployeeDAOImpl();
         return employeeDAO.fetchEmployee(empId);
     }

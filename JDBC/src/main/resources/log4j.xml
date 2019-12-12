@@ -10,6 +10,11 @@
         </layout>
     </appender>
 
+    <logger name="jrout.tutorial.batch31.jdbc.dao.impl.EmployeeDAOImpl" additivity="false">
+        <level value="DEBUG" />
+        <appender-ref ref="file" />
+    </logger>
+
     <appender name="file" class="org.apache.log4j.RollingFileAppender">
         <param name="append" value="true" />
         <param name="maxFileSize" value="10KB" />
@@ -30,5 +35,14 @@
         <appender-ref ref="console" />
         <appender-ref ref="file" />
     </root>
+
+    <!--
+Trace
+Debug
+Info
+Warn
+Error
+Fatal
+-->
 
 </log4j:configuration>

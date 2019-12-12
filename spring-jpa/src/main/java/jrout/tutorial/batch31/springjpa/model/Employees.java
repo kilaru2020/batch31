@@ -20,9 +20,9 @@ public class Employees {
     private char gender;
     private LocalDate hireDate;
 
-    /*@OneToMany(fetch = FetchType.EAGER, mappedBy = "empNo")
-    private List<Salaries> salaries = new ArrayList<>();*/
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "empNo")
+    private List<Salaries> salaries = new ArrayList<>();
 
-    /*@ManyToMany(mappedBy = "employees")
-    private List<Departments> departments = new ArrayList<>();*/
+    @ManyToMany(mappedBy = "employees")
+    private List<Departments> departments = new ArrayList<>();
 }

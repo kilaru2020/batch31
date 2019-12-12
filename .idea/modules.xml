@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-core-01/spring-core-01.iml" filepath="$PROJECT_DIR$/spring-core-01/spring-core-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-core-02/spring-core-02.iml" filepath="$PROJECT_DIR$/spring-core-02/spring-core-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-jpa/spring-jpa.iml" filepath="$PROJECT_DIR$/spring-jpa/spring-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-jpa-h2/spring-jpa-h2.iml" filepath="$PROJECT_DIR$/spring-jpa-h2/spring-jpa-h2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-rest-ws/spring-rest-ws.iml" filepath="$PROJECT_DIR$/spring-rest-ws/spring-rest-ws.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-rest-ws-2/spring-rest-ws-2.iml" filepath="$PROJECT_DIR$/spring-rest-ws-2/spring-rest-ws-2.iml" />
     </modules>
