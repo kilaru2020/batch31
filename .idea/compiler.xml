@@ -2,18 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-core-01" />
         <module name="spring-jpa" />
         <module name="JDBC" />
-        <module name="RMI" />
         <module name="RMIDifferentClient" />
         <module name="spring-jpa-h2" />
         <module name="spring-rest-ws" />
         <module name="spring-core-02" />
-        <module name="spring-core-01" />
+        <module name="RMI" />
         <module name="spring-rest-ws-2" />
         <module name="spring-core" />
       </profile>

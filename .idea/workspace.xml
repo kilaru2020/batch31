@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/java/jrout/tutorial/springjpa/springjpa/SpringJpaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/java/jrout/tutorial/springjpa/springjpa/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/java/jrout/tutorial/springjpa/springjpa/model/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/java/jrout/tutorial/springjpa/springjpa/model/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/java/jrout/tutorial/springjpa/springjpa/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/java/jrout/tutorial/springjpa/springjpa/model/Subscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/java/jrout/tutorial/springjpa/springjpa/repository/ReaderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/java/jrout/tutorial/springjpa/springjpa/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/test/java/jrout/tutorial/springjpa/springjpa/SpringJpaAssociationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jpa-h2/src/test/java/jrout/tutorial/springjpa/springjpa/SpringJpaCachingTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/log/jdbc.log" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/log/jdbc.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/java/jrout/tutorial/batch31/jdbc/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Departments.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Departments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/model/Employees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/jrout/tutorial/batch31/springjpa/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jpa/src/test/java/jrout/tutorial/batch31/springjpa/SpringJpaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jpa/src/test/java/jrout/tutorial/batch31/springjpa/SpringJpaApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="bafa546e-d049-4f70-842d-0e1295759db2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +44,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -282,7 +249,7 @@
       <workItem from="1574472708770" duration="4654000" />
       <workItem from="1574560800061" duration="23512000" />
       <workItem from="1575681314764" duration="4690000" />
-      <workItem from="1575935598179" duration="36325000" />
+      <workItem from="1575935598179" duration="36575000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1571709937565</created>
