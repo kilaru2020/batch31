@@ -2,6 +2,7 @@ package jrout.tutorial.springjpa.springjpa.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -14,11 +15,15 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@Cacheable
+@org.hibernate.annotations.Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class Student {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private long id;
+
+//    @Column(name = "name", unique = true, nullable = false, length = 250)
     private String name;
     private String email;
 
